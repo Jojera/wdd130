@@ -43,21 +43,21 @@ aside {
 }
 
 aside img {
-    width: 400px;
+    width: 150px;
     height: var(--height);
 }
 
 aside h2 {
-    position: absolute;
     top: 47px;
     left: 150px;
-    color: yellowgreen;
+    color: black;
 }
 
 main img {
     width: 200px;
     height: var(--height);
-    float: right;
+    margin: 1rem;
+    border: 1px solid rgb(0,0,0,.2);
 }
 
 p {padding: 0;}
