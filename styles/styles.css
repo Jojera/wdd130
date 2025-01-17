@@ -45,7 +45,7 @@ aside {
 aside img {
     width: 150px;
     height: var(--height);
-    margin: 1rem;
+    margin: 16px;
 }
 
 aside h2 {
