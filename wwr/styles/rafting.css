@@ -57,6 +57,11 @@ p {
     
 }
 
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
 .hero article img {
     margin: 10px;
     float: right;
