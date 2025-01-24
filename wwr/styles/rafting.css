@@ -15,9 +15,8 @@ h1 {
     display: inline-block;
     position: absolute;
     left: 30%;
-    top: 10%;
-    
- } 
+    top: 10%;    
+} 
 
 h1, h2 {
     font-family: "Fugaz One", serif;
@@ -39,7 +38,7 @@ p {
 }
 
 .hero h1 {
-    position: absolute;
+    position: absolute;   
 }
 
 .hero article {
