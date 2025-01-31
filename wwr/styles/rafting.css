@@ -10,7 +10,7 @@ h1 {
     font-family: "Fugaz One", serif;
     color: var(--accent-color1);
     font-size: 3rem;
-    background-color: var(--accent-color2);
+    background-color: var(--primary-color);
     text-align: center;
     display: inline-block;
     position: absolute;
@@ -27,6 +27,15 @@ p {
     font-family: "Roboto", serif;
     color: var(--accent-color1);
     font-weight: 400;
+}
+
+h1 {
+    color: white;
+} 
+
+
+article p {
+    color: white;
 }
 
 .socials a {
@@ -50,7 +59,7 @@ p {
     width: 80%;
     gap: 5%;
     border-radius: 10px;
-    background-color: var(--accent-color2);
+    background-color: var(--primary-color);
     color: white;
     padding: 10px;
     
@@ -59,6 +68,7 @@ p {
 .hero img {
     width: 100%;
     height: auto;
+    padding-bottom: 10px;
 }
 
 .hero article img {
@@ -68,7 +78,107 @@ p {
     height: auto;
 }
     
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 2px;
+    background-color: var(--primary-color);
+    top: 0;
+    margin: 1rem auto;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--secondary-color);
+    font-size: 1.2rem;
+}
+
+nav a {
+    display: block;
+    color: rgb(2, 2, 49); /* Unchanged */
+    text-decoration: none;
+    padding: 1rem;
+    border: 2px;
+    border-radius: 10px;
+    margin: 0 6px;
+}
+
+header img {
+    margin: 1rem;
+    padding: 1px;
     
+}
+    
+.history {
+    display: flex;
+    border: 2px;
+    padding: 1px;  
+    gap: 50px;  
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.heading {
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.heading h2 {
+    text-align: center;
+}
+
+.history img {
+    width: 300px;
+    height: auto;
+    padding-bottom: 15px;
+    
+}
+
+
+.adventure {
+    padding: 10px;
+}
+
+.adventure h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.picture {
+    display: flex;
+}
+
+figure img {
+    width: 170px;
+    height: auto;     
+}
+
+figcaption {
+    text-align: center;
+}
+
+
+footer {
+    display: flex;
+    background-color: var(--secondary-color);
+    justify-content: space-around;
+
+}
+
+footer p {
+    text-align: center;
+    align-content: center;
+}
+
+
+
+
+
+
+
 
 
 
