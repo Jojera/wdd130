@@ -18,7 +18,7 @@ h1 {
     color: white;   
 } 
 
-h1, h2 {
+h2 {
     font-family: "Fugaz One", serif;
     color: var(--accent-color1);
 }
