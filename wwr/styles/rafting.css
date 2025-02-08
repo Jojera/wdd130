@@ -14,7 +14,8 @@ h1 {
     text-align: center;
     display: inline-block;
     left: 30%;
-    top: 10%;    
+    top: 10%; 
+    color: white;   
 } 
 
 h1, h2 {
@@ -27,13 +28,7 @@ p {
     color: var(--accent-color1);
     font-weight: 400;
 }
-
-h1 {
-    color: white;
-
-} 
-
-
+ 
 article p {
     color: white;
 }
