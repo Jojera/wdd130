@@ -13,7 +13,6 @@ h1 {
     background-color: var(--primary-color);
     text-align: center;
     display: inline-block;
-    position: absolute;
     left: 30%;
     top: 10%;    
 } 
@@ -31,6 +30,7 @@ p {
 
 h1 {
     color: white;
+
 } 
 
 
@@ -185,6 +185,8 @@ footer p {
 .team-container {
     display: flex;
     justify-content: center;
+    border-radius: 1.5rem;
+    border: 10px;
 }
 
 .team h2 {
@@ -196,10 +198,6 @@ footer p {
     text-align: left;
 }
 
-.team-container {
-    border-radius: 1.5rem;
-    border: 10px;
-}
 
 .team img {
     width: 150px;
