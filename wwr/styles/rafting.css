@@ -173,9 +173,93 @@ footer p {
     align-content: center;
 }
 
+.info {
+    text-align: center;
+}
 
+.info iframe {
+    width: 100%;
+    background-color:#AFC1D6;
+}
 
+.team-container {
+    display: flex;
+    justify-content: center;
+}
 
+.team h2 {
+    text-align: center;
+    
+}
+
+.company {
+    text-align: left;
+}
+
+.team-container {
+    border-radius: 1.5rem;
+    border: 10px;
+}
+
+.team img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    background-color: #AFC1D6;
+    border: 20px 20px 20px 20px;
+    padding: 60px 60px 60px 60px;
+}
+
+.team img:hover {
+    background-color: #eee;
+}
+
+form {
+    width: auto;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+
+  button {
+    margin: 1rem;
+    background-color: #006DAA;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+  }
+
+  button:hover {
+    background-color: #B3679B;
+  }
+
+  label {
+    text-align: right;
+    padding-right: 1rem;
+  }
+
+  input, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+  }
+
+  .form-item .column2 {
+    grid-template-columns: 1fr 2fr;
+  }
 
 
 
